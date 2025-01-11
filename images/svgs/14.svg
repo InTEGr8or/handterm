@@ -1,0 +1,75 @@
+<svg id="chord-hand" viewBox="0 0 63 50" width="630" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:v="https://vecta.io/nano">
+  <style>
+        #hand g use {
+            stroke: #aa6e02 ;
+            stroke-width: 0.1px;
+        }
+        #thumb {
+            fill: url("#thumbGradient");
+        }
+        #index {
+            fill: #ffb6b6ff;
+        }
+        #middle {
+            fill: #ffb6b6ff;
+        }
+        #ring {
+            fill: #ffb6b6ff;
+        }
+        #pinky {
+            fill: url("#thumbGradient");
+        }
+    </style>
+  <defs>
+    <linearGradient id="thumbGradient" x1="1" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffb6b6ff" />
+      <stop offset="100%" stop-color="#BD7676" />
+    </linearGradient>
+    <linearGradient id="fingerGradient" x1="1" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#BD7676" />
+      <stop offset="50%" stop-color="#ffb6b6ff" />
+      <stop offset="100%" stop-color="#BD7676" />
+    </linearGradient>
+    <radialGradient id="roundTipGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#ffb6b6ff" />
+      <stop offset="100%" stop-color="#BD7676" />
+    </radialGradient>
+    <!-- Make a radial gradient for the pinky -->
+    <path id="phalange" d="                 M 0 0                  L 10 0                 L 10 10                 L 0 10                 Z" stroke-width="useCurrent" stroke="useCurrent" />
+    <path id="tip" d="                 M 0 0                  C 15 0, 15 10, 0 10                 L 0 10                 Z" stroke-width="useCurrent" stroke="useCurrent" />
+    <circrle id="round-tip" cx="0" cy="5" r="5" fill="url('#roundTipGradient')" />
+    <polygon id="start" points="1,1 6,5 1,9" fill="#0F0F" z-index="1010" />
+    <rect id="start-stop" y="1" x="6" width="3" height="8" fill="#000F" z-index="1000" />
+    <rect id="stop" y="1" width="8" height="8" fill="#000F" z-index="1000" />
+    <circle id="dot" cx="3" cy="5" r="2" stroke="none" />
+  </defs>
+  <g id="hand" viewBox="0 0 63 50" x="0" y="0">
+    <g id="thumb">
+      <use id="me" href="#phalange" transform="translate(0,0)" />
+      <use id="mf" href="#phalange" transform="translate(10,0)" />
+      <use id="pf" href="#tip" transform="translate(20,0) scale(1,1) skewY(-12)" />
+    </g>
+    <g id="index" transform="translate(0,10)">
+      <use id="me" href="#phalange" transform="translate(0,0) scale(2,1)" />
+      <use id="mf" href="#phalange" transform="translate(20,0) scale(2,1) " />
+      <use id="pf" href="#tip" transform="translate(40,0) scale(1.5,1) " />
+      <use id="start" href="#start" x="40" />
+    </g>
+    <g id="middle" transform="translate(0,20)">
+      <use id="me" href="#phalange" transform="translate(0,0) scale(2,1) " />
+      <use id="mf" href="#phalange" transform="translate(20,0) scale(2.25,1) " />
+      <use id="pf" href="#tip" transform="translate(42.5,0) scale(1.75,1) " />
+    </g>
+    <g id="ring" transform="translate(0,30)">
+      <use id="me" href="#phalange" transform="translate(0,0) scale(2,1) " />
+      <use id="mf" href="#phalange" transform="translate(20,0) scale(2,1) " />
+      <use id="pf" href="#tip" transform="translate(40,0) scale(1.5,1) " />
+    </g>
+    <g id="pinky" transform="translate(0,40)">
+      <use id="me" href="#phalange" transform="translate(0,0) scale(1.5,1) " />
+      <use id="mf" href="#phalange" transform="translate(15,0) scale(1.5,1) " />
+      <use id="pf" href="#tip" transform="translate(30,0) scale(1.5,1) " />
+      <use id="stop" href="#stop" x="31" />
+    </g>
+  </g>
+</svg>

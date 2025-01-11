@@ -1,0 +1,35 @@
+End-User License Agreement (EULA) of Lazerpants Studios LLC ("Lazerpants"), a New York limited liability company.
+This End-User License Agreement ("EULA") is a legal agreement between you and Lazerpants.
+
+This EULA agreement governs your acquisition and use of Zombie #4 - Pixel Art Character (the "Asset") directly from Lazerpants or indirectly through an authorized reseller or distributor (a "Reseller").
+
+Please read this EULA agreement carefully before implementing and using the Asset. It provides a license to use the Asset and contains warranty information and liability disclaimers.
+
+If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity and its affiliates to these terms and conditions. If you do not have such authority or if you do not agree with the terms and conditions of this EULA agreement you may not implement or use the Asset for any purpose.
+
+This EULA agreement shall apply only to the Asset supplied by Lazerpants. The terms also apply to any updates and support services supplied by Lazerpants, unless other terms accompany those items on delivery. If so, those terms apply.
+
+License Grant
+Lazerpants hereby grants you a personal, non-transferable, non-exclusive licence to use the Asset in accordance with the terms of this EULA agreement.
+
+You are permitted to:
+- Edit, alter, modify, and adapt upon the material for any game development related purpose.
+- Use the Asset for the development of both non-commercial and commercial game projects.
+- Give appropriate credit to Lazerpants.
+
+You are NOT permitted to:
+- Reproduce, copy, distribute or resell the Asset on online asset stores, file sharing websites or similar websites.
+- Use the Asset in any way which breaches any applicable local, national or international law
+- Use the Asset for any purpose that Lazerpants considers a breach of this EULA agreement
+
+Termination
+This EULA agreement is effective from the date you first download the Asset and shall continue until terminated. You may terminate it at any time by written agreement with Lazerpants. It will also terminate immediately if you fail to comply with any term of this EULA agreement. Upon such termination, the licenses granted by this EULA agreement will immediately terminate and you agree to stop all access and use of the Asset.
+
+Dispute Resolution and Governing Law
+Except to the extent that the applicable laws and regulations of your jurisdiction mandate otherwise, this EULA is governed by and will be construed under the laws of the state of New York, USA, without regard to its conflict of law provisions and, except as noted below in the Section below entitled “Binding Arbitration,” you agree to submit to the exclusive jurisdiction of the courts of Suffolk County, NY, USA to resolve all disputes related to this EULA.
+
+------------------------------------------------------------
+
+SUMMARY: You may use this asset in any game development project you want, commercial or not, but you are not allowed to resell it as just an asset (as I'm doing on itch.io, the Unity Asset Store, etc.)
+
+CONTACT: Jamie@LazerpantsStudios.com
