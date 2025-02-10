@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"
+  style="background-color: #000; z-index: -1001;"
+  >
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HandTerm - The Handex Terminal</title>
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    (function(l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function(s) {
+          return s.replace(/~and~/g, '&');
+        }).join('?');
+        window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    })(window.location);
+  </script>
+  <script type="module" crossorigin src="/assets/index-CvapaBRC.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/monaco-BeiUMcnT.js">
+  <link rel="stylesheet" crossorigin href="/assets/monaco-BvPYLX3q.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-DWKtGhsB.css">
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" id="terminal-nav-svg" style="display: none"
+    hidden="hidden">
+    <defs>
+      <polygon id="start" points="1,1 6,5 1,9" fill="#0F0F" z-index="1010" />
+      <rect id="start-stop" y="1" x="6" width="3" height="8" fill="#000F" z-index="1000" />
+      <rect id="stop" y="1" width="8" height="8" fill="#000F" z-index="1000" />
+      <circle id="dot" cx="3" cy="5" r="2" stroke="none" />
+      <g id="pause">
+        <rect id="pause-1" x="1" y="1" width="2" height="8" fill="#FFFF" z-index="1000" />
+        <rect id="pause-2" x="5" y="1" width="2" height="8" fill="#FFFF" z-index="1000" />
+      </g>
+    </defs>
+  </svg>
+  <div id="root" class="main"></div>
+  <div id="footer">
+    <div id="footer-text">PRE-ORDER YOUR HANDEX TODAY!<br />at <a
+        href="https://handex.io/pricing?utm_source=handterm#footer&utm_medium=link&utm_term=pricing">handex.io/pricing</a>
+    </div>
+    <img src="/images/PricingUTM_w200.png" alt="Handex.io/pricing QR code" />
+  </div>
+</body>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const rootElement = document.getElementById('root');
+    document.body.addEventListener('click', (e) => {
+      // Check if the click is outside of the terminal area
+      if (e.target === rootElement || rootElement.contains(e.target)) {
+        return; // Do nothing if the click is inside the div#root
+      }
+      // Focus the terminal if the click is outside div#root
+      rootElement.focus();
+    });
+  });
+</script>
+
+</html>

@@ -1,0 +1,29 @@
+
+Thank you for downloading this asset! 
+The following information is useful when importing the spritesheets:
+******************
+
+There are 6 animations. All frames are on a 62x62 "canvas."
+
+White and red flash frames are included at the end of the hurt and death animations. Choose whichever you prefer, if any.
+
+If you're using Unity, a package file is included that you can just import into your project ready-to-go.
+
+
+* Idle - 5 frames
+* Walk - 13 frames
+* Attack - 15 frames
+* Hurt - 7 frames
+* Death - 12 frames
+* Spawn - 10 frames
+
+
+******************
+Check out the video on the store page if you need to see the animations in action. I also included animated preview GIFs that can be used for reference also. If you need help with the animations, don't hesitate to contact me at Jamie@LazerpantsStudios.com.
+
+Thank you for supporting my work!
+
+
+Sincerely,
+
+Jamie Holub / Lazerpants
